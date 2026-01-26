@@ -1,14 +1,14 @@
-RPX-Hinf-PI
-Version: 1.0.0
-Year: 2025
-Authors: M. Schlegel, M. Brabec
-Department of Cybernetics
-Faculty of Applied Sciences
-University of West Bohemia in Pilsen
--------------------------------------------------------------
-License: MIT License (c) 2025 ACROSS-UWB
-See LICENSE file for full license text.
-Support contact: brabecm@ntis.zcu.cz
+RPX-Hinf-PI\n
+Version: 1.0.0\n
+Year: 2025\n
+Authors: M. Schlegel, M. Brabec\n
+Department of Cybernetics\n
+Faculty of Applied Sciences\n
+University of West Bohemia in Pilsen\n
+-------------------------------------------------------------\n
+License: MIT License (c) 2025 ACROSS-UWB\n
+See LICENSE file for full license text.\n
+Support contact: brabecm@ntis.zcu.cz\n
 
 This outcome is linked to the research objective RO 1.4 Algorithms for industrial control and has been supported by the Roboprox project (CZ.02.01.01/00/22_008/0004590).
 
