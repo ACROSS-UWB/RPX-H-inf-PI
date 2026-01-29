@@ -13,11 +13,11 @@ University of West Bohemia in Pilsen
 
 ## Description
 
-A software tool has been developed for designing a PI controller for an LTI SISO system. The tool supports an arbitrary number of design requirements in the form of H-infinity specifications, including the H-infinity norm of weighted sensitivity functions and the H-infinity norm of the sums of the squares of their magnitudes. The tool also supports specifications on the closed-loop pole placement, such as σ-stability and damping of oscillatory modes.
+A software tool has been developed for PI controller design for an LTI SISO system. The tool supports an arbitrary number of design requirements in the form of H∞ specifications, including the H∞ norm of weighted sensitivity functions and the H∞ norm of the sums of the squares of their magnitudes. In addition to classical H∞ specifications, frequency-limited requirements on the sensitivity function can also be defined in the form ∣S(jω)∣≤ε for ω∈⟨ω1,ω2⟩. The tool also supports specifications on the closed-loop pole placement, such as σ-stability and damping of oscillatory modes.
 
-The design method is based on the analytical computation of the solution region boundary in the controller parameter plane.
+The design method is based on the analytical computation of the boundary of the feasible solution region in the controller parameter plane. The resulting region contains all solutions satisfying the specified design constraints. The optimal PI controller parameters are selected from this region based on the IE (Integral Error) criterion.
 
-The tool is available as a standalone executable application.
+The tool is available as a standalone executable console application.
 
 ---
 
@@ -40,10 +40,12 @@ The tool is available as a standalone executable application.
 ## Features
 
 - PI controller design for LTI SISO systems
-- Multiple H-infinity design specifications
+- Multiple H∞ design specifications
 - Weighted sensitivity and complementary sensitivity shaping
+- Frequency-limited requirements on the sensitivity function
 - Closed-loop pole placement constraints
 - Analytical computation of solution region boundaries
+- Selection of the final solution based on the IE criterion
 
 ---
 
@@ -51,8 +53,9 @@ The tool is available as a standalone executable application.
 
 1. Provide the plant model in the supported format.
 2. Define the H-infinity design specifications.
-3. Define the closed-loop pole placement constraints.
-4. Run the design procedure to obtain the controller parameters.
+3. Define frequency-limited requirements on the sensitivity function.
+4. Define the closed-loop pole placement constraints.
+5. Run the design procedure to obtain the controller parameters.
 
 ---
 
