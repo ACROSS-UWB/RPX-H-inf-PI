@@ -1,4 +1,4 @@
-# RPX-Hinf-PI
+# RPX-H-inf-PI
 
 **Version:** 1.0.0  
 **Year:** 2025  
@@ -52,7 +52,7 @@ The tool is available as a standalone executable console application.
 ## Usage
 
 1. Provide the plant model in the supported format.
-2. Define the H-infinity design specifications.
+2. Define the H∞ design specifications.
 3. Define frequency-limited requirements on the sensitivity function.
 4. Define the closed-loop pole placement constraints.
 5. Run the design procedure to obtain the controller parameters.
@@ -62,7 +62,7 @@ The tool is available as a standalone executable console application.
 ## System Requirements
 
 - Windows 10 or later
-- MATLAB Runtime 2025
+- MATLAB Runtime 2025b (www.mathworks.com/products/compiler/matlab-runtime.html)
 
 ## Input format notice
 
