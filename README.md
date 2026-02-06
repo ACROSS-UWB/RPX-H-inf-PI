@@ -61,7 +61,7 @@ The tool is available as a standalone executable console application.
 
 ## System Requirements
 
-- Windows 10 or later
+- Windows 11 or later
 - MATLAB Runtime 2025b (www.mathworks.com/products/compiler/matlab-runtime.html)
 
 ## Input format notice
