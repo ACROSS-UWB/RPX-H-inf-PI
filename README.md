@@ -29,11 +29,11 @@ The tool is available as a standalone executable console application.
 | 2 | Complementary sensitivity | `\|\| W_t(s) · T(s) \|\|inf ≤ γ` |
 | 3 | Control sensitivity | `\|\| W_c(s) · Sc(s) \|\|inf ≤ γ` |
 | 4 | Process sensitivity | `\|\| W_p(s) · Sp(s) \|\|inf ≤ γ` |
-| 5 | Mixed (S, T) | `\|W_s(s)·S(s)\|² + \|W_t(s)·T(s)\|² ≤ γ` |
-| 6 | Mixed (S, Sc) | `\|W_s(s)·S(s)\|² + \|W_c(s)·Sc(s)\|² ≤ γ` |
-| 7 | Mixed (S, Sp) | `\|W_s(s)·S(s)\|² + \|W_p(s)·Sp(s)\|² ≤ γ` |
-| 8 | Mixed (S, Sc, Sp) | `\|W_s(s)·S(s)\|² + \|W_c(s)·Sc(s)\|² + \|W_p(s)·Sp(s)\|² ≤ γ` |
-| 9 | Mixed (S, Sc, T) | `\|W_s(s)·S(s)\|² + \|W_c(s)·Sc(s)\|² + \|W_t(s)·T(s)\|² ≤ γ` |
+| 5 | Mixed (S, T) | `\|\| \|W_s(s)·S(s)\|² + \|W_t(s)·T(s)\|² \|\|inf ≤ γ` |
+| 6 | Mixed (S, Sc) | `\|\| \|W_s(s)·S(s)\|² + \|W_c(s)·Sc(s)\|² \|\|inf ≤ γ` |
+| 7 | Mixed (S, Sp) | `\|\| \|W_s(s)·S(s)\|² + \|W_p(s)·Sp(s)\|² \|\|inf ≤ γ` |
+| 8 | Mixed (S, Sc, Sp) | `\|\| \|W_s(s)·S(s)\|² + \|W_c(s)·Sc(s)\|² + \|W_p(s)·Sp(s)\|² \|\|inf ≤ γ` |
+| 9 | Mixed (S, Sc, T) | `\|\| \|W_s(s)·S(s)\|² + \|W_c(s)·Sc(s)\|² + \|W_t(s)·T(s)\|² \|\|inf ≤ γ` |
 
 ---
 
