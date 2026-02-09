@@ -13,7 +13,7 @@ University of West Bohemia in Pilsen
 
 ## Description
 
-A software tool has been developed for PI controller design for an LTI SISO system. The tool supports an arbitrary number of design requirements in the form of H∞ specifications, including the H∞ norm of weighted sensitivity functions and the H∞ norm of the sums of the squares of their magnitudes. In addition to classical H∞ specifications, frequency-limited requirements on the sensitivity function can also be defined in the form ∣S(jω)∣≤ε for ω∈⟨ω1,ω2⟩. The tool also supports specifications on the closed-loop pole placement, such as σ-stability and damping of oscillatory modes.
+A software tool has been developed for PI controller design for an LTI SISO system. The tool supports an arbitrary number of design requirements in the form of H-inf specifications, including the H-inf norm of weighted sensitivity functions and the H-inf norm of the sums of the squares of their magnitudes. In addition to classical H-inf specifications, frequency-limited requirements on the sensitivity function can also be defined in the form ∣S(jω)∣≤ε for ω∈⟨ω1,ω2⟩. The tool also supports specifications on the closed-loop pole placement, such as σ-stability and damping of oscillatory modes.
 
 The design method is based on the analytical computation of the boundary of the feasible solution region in the controller parameter plane. The resulting region contains all solutions satisfying the specified design constraints. The optimal PI controller parameters are selected from this region based on the IE (Integral Error) criterion.
 
@@ -40,7 +40,7 @@ The tool is available as a standalone executable console application.
 ## Features
 
 - PI controller design for LTI SISO systems
-- Multiple H∞ design specifications
+- Multiple H-inf design specifications
 - Weighted sensitivity and complementary sensitivity shaping
 - Frequency-limited requirements on the sensitivity function
 - Closed-loop pole placement constraints
@@ -52,7 +52,7 @@ The tool is available as a standalone executable console application.
 ## Usage
 
 1. Provide the plant model in the supported format.
-2. Define the H∞ design specifications.
+2. Define the H-inf design specifications.
 3. Define frequency-limited requirements on the sensitivity function.
 4. Define the closed-loop pole placement constraints.
 5. Run the design procedure to obtain the controller parameters.
@@ -64,15 +64,19 @@ The tool is available as a standalone executable console application.
 - Windows 10 or later
 - MATLAB Runtime 2025b (www.mathworks.com/products/compiler/matlab-runtime.html)
 
+---
+
 ## Input format notice
 
 Commas are reserved **only** for separating vector elements and must not be used as decimal separators.
+
+When entering polynomials, provide them as a vector of coefficients ordered **from the highest power to the lowest power**.
 
 ### Examples
 
 ```text
 Scalar: 3.14
-Vector: [1.2, 3.4, 5] or [1.2 3.4 5]
+Polynomial: [1, -3.5, 2.1] or [1 -3.5 2.1]   // represents 1*s^2 - 3.5*s + 2.1
 ```
 
 ---
